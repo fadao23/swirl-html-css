@@ -1,5 +1,5 @@
 <!DOCTYPE hmlt>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <!--jquery-->
@@ -8,9 +8,8 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <script type="text/javascript" src="js/holder.min.js"></script>
     <!-- bootstrap -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/_nav.scss"/>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <!--style-->
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <title>F.BORJA</title>
@@ -37,24 +36,57 @@
         </div>
     </div>
 </header>-->
-<div class="bgimg-1">
-    <div class="navbar navbar  box-shadow">
-            <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                    <strong></strong>
-                </a>
-                <button class="btn btn-outline-light" type="button" >
-                        <strong>About me</strong>
-                    </button>
-                <button class="btn btn-outline-light" type="button">
-                    <strong>Contact me</strong>
-                </button>
+<section class="cover text-center">
+    <nav class="navbar navbar-toggleable-sm navbar-trans navbar-inverse">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler-1" aria-controls="navbarToggler-1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-collapse navbar-brand" href="#">
+                <img src="assets/png/logo_72x.png">
+            </a>
+            <div class="collapse navbar-collapse pull-xs-right justify-content-end" id="navbarToggler-1">
+                <ul class="navbar-nav mt-2 mt-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <!--<li class="nav-item">
+                        <a class="btn btn-outline-white btn-outline" href="#"><i class="fa fa-user"></i> Login
+                        </a>
+                    </li>-->
+                </ul>
             </div>
         </div>
-    <div class="caption">
-        <span class="border">HALF PAGE</span><br>
-        <span class="border">BACKGROUND IMAGE</span>
+    </nav>
+    <div class="cover-container">
+        <div class="cover-inner container">
+                <h1 class="jumbotron-heading">
+                    I'm here to create meaningful and lasting relationships with my clients.
+                </h1>
+                <p>
+                    <a href="#" class="btn btn-primary btn-lg mb-2 mr-2 ml-2">About-me</a>
+                    <a href="#" class="btn btn-outline-white btn-lg mb-2 ml-2 ml-2">Contact</a>
+                </p>
+                <p class="lead">Man is still the most extraordinary computer of all.<br> John F. Kennedy</p>
+        </div>
     </div>
+</section>
+<section id="home-intro">
+    <div class="container">
+        <h1 class="jumbotron">Test</h1>
+
     </div>
+
+</section>
+
 </body>
 </html>
